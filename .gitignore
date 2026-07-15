@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Results / large outputs
+results/
+outputs/
+*.log
+*.out
+*.err
+wandb/
+.cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Local-only data (rebuilt from JSTET + DataForSEO; not in repo)
+1_dataset_construction/raw/
+1_dataset_construction/all_unique_authors_fame.csv
+
+# Generated intermediates from the reference-only rebuild pipeline
+1_dataset_construction/outputs_clean_filtered/
+1_dataset_construction/outputs_clean_decile_segmentation/
+1_dataset_construction/outputs_fame_balanced/
+fame_control/
