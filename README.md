@@ -2,7 +2,10 @@
 
 <h1><i>Attribution Bias</i> in Large Language Models</h1>
 
-<img alt="COLM 2026" src="https://img.shields.io/badge/COLM-2026-b31b1b.svg" height="20" />
+<a href="https://arxiv.org/abs/2604.05224" target="_blank">
+    <img alt="Paper: arXiv 2604.05224" src="https://img.shields.io/badge/arXiv-2604.05224-b31b1b.svg" height="20" />
+</a>
+<img alt="COLM 2026" src="https://img.shields.io/badge/COLM-2026-6f42c1.svg" height="20" />
 <a href="https://huggingface.co/datasets/bermaneh/AttriBench" target="_blank">
     <img alt="HF Dataset: AttriBench" src="https://img.shields.io/badge/%F0%9F%A4%97_Benchmark-AttriBench-ffc107?color=ffc107&logoColor=white" height="20" />
 </a>
@@ -17,6 +20,8 @@ New York University
 <br />
 <sup>*</sup>Co-senior authors
 </p>
+
+<p><b>Paper:</b> <a href="https://arxiv.org/abs/2604.05224">arxiv.org/abs/2604.05224</a></p>
 
 <img src="docs/suppression.png" alt="Example of suppression in quote attribution: GPT-5.1 names both A. A. Milne and Alice Walker under the direct prompt, but omits Alice Walker's name under the indirect prompt, attributing the quote only to &quot;a writer&quot;." width="90%" />
 
@@ -265,6 +270,7 @@ python 1_dataset_construction/fame_scripts/mk_new_datasets.py --universe-csv 1_d
     author  = {Berman, Eliza and Chang, Bella and Neill, Daniel B. and Black, Emily},
     journal = {arXiv preprint},
     year    = {2026},
+    url     = {https://arxiv.org/abs/2604.05224},
 }
 ```
 
